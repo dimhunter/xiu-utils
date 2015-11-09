@@ -64,6 +64,7 @@
 		<groupId>com.h2database</groupId>
 		<artifactId>h2</artifactId>
 		<version>1.3.176</version>
+		<scope>test</scope>
 	</dependency>
 		
 	
@@ -107,8 +108,8 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<source>1.5</source>
-					<target>1.5</target>
+					<source>1.7</source>
+					<target>1.7</target>
 					<optimize>true</optimize>
 					<encoding>UTF-8</encoding>
 				</configuration>
@@ -125,16 +126,6 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>2.6.1</version>
-				<configuration>
-					<bottom>
-					<![CDATA[<i>Copyright 2010 <a href="http://www.egfit.com">The Eastern Golden Finger Information Co., Ltd.<a></i>]]>
-					</bottom>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
