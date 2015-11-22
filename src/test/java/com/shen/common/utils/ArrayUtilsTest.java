@@ -1,6 +1,8 @@
 package com.shen.common.utils;
 
 
+import org.junit.Test;
+
 public class ArrayUtilsTest {
 
 //	protected void setUp() throws Exception {
@@ -11,6 +13,7 @@ public class ArrayUtilsTest {
 //		super.tearDown();
 //	}
 
+	@Test
 	public void testToStringObject() {
 		String[] array = new String[]{"a","bb","c"};
 		int[] array2 = new int[]{1,33,6};
